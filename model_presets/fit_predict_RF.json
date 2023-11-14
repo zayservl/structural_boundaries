@@ -1,0 +1,9 @@
+{
+	"Learning_Grd_Files": "all_transforms",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Output_File": "target/predict_rf.grd",
+	"Max_corr": 0.9,
+    	"Method": "RF",
+	"n_estimators": 100,
+	"random_state": 123
+}

@@ -1,0 +1,11 @@
+{
+	"Learning_Grd_Files": "all_transforms",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Output_File": "target/predict_fcnn.grd",
+	"Max_corr": 0.9,
+    	"Method": "FCNN",
+	"neurons_list": [80, 80, 80, 80],
+	"n_epochs": 50,
+	"activation": "tanh",
+	"random_state": 123
+}

@@ -1,0 +1,10 @@
+{
+	"Learning_Grd_Files": "all_transforms",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Output_File": "target/predict_cgb.grd",
+	"Max_corr": 0.9,
+    	"Method": "CGB",
+	"n_estimators": 200,
+	"max_depth": 9,
+	"random_state": 123
+}

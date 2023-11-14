@@ -1,0 +1,23 @@
+{
+	"task": "crossval",
+	"Learning_Grd_Files": "small_test",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Mesh": {
+		"dx": 100,
+		"dy": 100
+	},
+	"Max_corr": 0.9,
+	"Method": "CGB",
+	"n_epochs": 50,
+	"conv_sample_shape": [17, 17],
+	"n_layers": 3,
+	"n_filters": 2,
+	"activation": "swish",
+	"print_stats": true,
+	"verbose": 4,
+	"batch_size": 400,
+	"split_type": "geographic",
+	"n_splits": 2,
+	"metrics": ["rmse", "r2", "mpe"],
+	"random_state": 123
+}

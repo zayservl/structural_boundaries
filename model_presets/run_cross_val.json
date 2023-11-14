@@ -1,0 +1,15 @@
+{
+	"task": "crossval",
+	"Learning_Grd_Files": "all_transforms",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Mesh": {
+		"dx": 500,
+		"dy": 500
+	},
+	"Max_corr": 0.9,
+    	"Method": "CGB",
+	"split_type": "areas",
+	"cell_size": [10, 10],
+	"metrics": ["rmse", "r2", "mpe"],
+	"random_state": 123
+}

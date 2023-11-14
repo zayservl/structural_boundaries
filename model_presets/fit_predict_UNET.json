@@ -1,0 +1,19 @@
+{
+	"Learning_Grd_Files": "all_transforms",
+	"Target_Grd_File": "target/B_Tenzor_corr.grd",
+	"Output_File": "target/predict_unet.grd",
+	"Max_corr": 0.9,
+    	"Method": "UNet",
+	"conv_sample_shape": [4, 4],
+	"n_epochs": 1,
+	"n_layers": 2,
+	"verbose": 2,
+	"conv_samples_step": {
+		"dx": 1,
+		"dy": 1
+	},
+	"n_filters": 2,
+	"batch_size": 200,
+	"activation": "swish",
+	"random_state": 123
+}
