@@ -4,8 +4,8 @@
 	"Output_File": "target/predict_unet05.grd",
 	"Max_corr": 0.9,
     	"Method": "UNet05",
-	"conv_sample_shape": [5, 5],
-	"n_epochs": 1,
+	"conv_sample_shape": [17, 17],
+	"n_epochs": 5,
 	"n_layers": 1,
 	"verbose": 2,
 	"conv_samples_step": {
